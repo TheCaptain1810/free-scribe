@@ -1,12 +1,10 @@
-/* eslint-disable react/prop-types */
-import { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 export default function HomePage(props) {
     const { setAudioStream, setFile } = props
 
     const [recordingStatus, setRecordingStatus] = useState('inactive')
     const [audioChunks, setAudioChunks] = useState([])
-    // eslint-disable-next-line no-unused-vars
     const [duration, setDuration] = useState(0)
 
     const mediaRecorder = useRef(null)

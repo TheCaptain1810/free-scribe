@@ -114,7 +114,6 @@ class GenerationTracker {
 
   chunkCallback(data) {
     this.chunks.push(data);
-    // eslint-disable-next-line no-unused-vars
     const [text, { chunks }] = this.pipeline.tokenizer._decode_asr(
       this.chunks,
       {

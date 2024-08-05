@@ -10,7 +10,6 @@ function App() {
   const [file, setFile] = useState(null)
   const [audioStream, setAudioStream] = useState(null)
   const [output, setOutput] = useState(null)
-  // eslint-disable-next-line no-unused-vars
   const [downloading, setDownloading] = useState(false)
   const [loading, setLoading] = useState(false)
   const [finished, setFinished] = useState(false)

@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import React from 'react'
 import { LANGUAGES } from '../utils/presets'
 
 export default function Translation(props) {
